@@ -70,7 +70,7 @@ a:hover {
 
 @keyframes text{ 
   0%{ 
-      color: rgb(248, 141, 141); 
+      color: rgb(248, 141, 141);
   } 
   30%{ 
       letter-spacing: 1px; 
