@@ -477,15 +477,13 @@ footer p {
   transform: scale(1.03);
 }
 
-
-
 /* Go to Top Button */
 #goTopBtn {
   display: none; /* Hidden by default */
   position: fixed;
   bottom: 90px;
   right: 20px;
-  z-index: 99; /* On top of other elements */
+  z-index: 99; 
   background-color: rgb(163, 163, 163);
   color: rgb(0, 0, 0);
   border: none;
