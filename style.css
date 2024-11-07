@@ -483,7 +483,7 @@ footer p {
 #goTopBtn {
   display: none; /* Hidden by default */
   position: fixed;
-  bottom: 20px;
+  bottom: 90px;
   right: 20px;
   z-index: 99; /* On top of other elements */
   background-color: rgb(163, 163, 163);
