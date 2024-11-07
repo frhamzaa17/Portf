@@ -20,3 +20,25 @@ function toggleMenu() {
       `;
   }
 }
+
+// Show the 
+window.onscroll = function() {
+    toggleGoTopButton();
+  };
+  
+  function toggleGoTopButton() {
+    const goTopBtn = document.getElementById("goTopBtn");
+    // Show button if scrolled 1600px 
+    if (document.body.scrollTop > 1600 || document.documentElement.scrollTop > 1600) {
+      goTopBtn.style.display = "block";
+    } else {
+      goTopBtn.style.display = "none";
+    }
+  }
+  
+  // Scroll to the top 
+  function goToTop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+  }
+  
