@@ -151,7 +151,7 @@ a:hover {
 }
 
 
-@media (min-width: 1300px) {
+@media (min-width: 1100px) {
   .hamburger-menu {
       display: none; /* Hide hamburger menu on larger screens */
   }
@@ -477,6 +477,8 @@ footer p {
   transform: scale(1.03);
 }
 
+
+
 /* Go to Top Button */
 #goTopBtn {
   display: none; /* Hidden by default */
@@ -496,4 +498,3 @@ footer p {
 #goTopBtn:hover {
   background-color: rgb(248, 141, 141);
 }
-
